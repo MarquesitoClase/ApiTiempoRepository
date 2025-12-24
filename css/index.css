@@ -1,0 +1,55 @@
+#contenedor {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    height: 400px;
+}
+
+
+.tarjeta {
+    width: 180px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    color: #222;
+}
+
+
+.tarjeta:has(> .soleado) {
+    background: #ffe066;
+}
+
+.tarjeta:has(> .parcial) {
+    background: #f1f3f5;
+}
+
+.tarjeta:has(> .nublado) {
+    background: #ced4da;
+}
+
+.tarjeta:has(> .lluvia) {
+    background: #74c0fc;
+    color: #0b3c5d;
+}
+
+.tarjeta:has(> .nieve) {
+    background: #f8f9fa;
+}
+
+.tarjeta:has(> .tormenta) {
+    background: #adb5bd;
+}
+
+.tarjeta:has(> .desconocido) {
+    background: #dee2e6;
+}
