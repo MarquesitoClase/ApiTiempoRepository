@@ -18,13 +18,8 @@
    git clone <tu-repo-url>
    cd ApiDelTiempo
    ```
-2. Abre el proyecto con un servidor local (recomendado; algunos navegadores bloquean geolocalización en `file://`):
-   - Con Node (sin paquetes globales):
-     ```bash
-     npx http-server . -p 8000
-     ```
+2. Abre el proyecto con un servidor local:
    - O usa la extensión Live Server de VS Code.
-3. Abre en el navegador: `http://localhost:8000` y permite el acceso a tu ubicación cuando el navegador lo pida.
 
 ## 🧭 Uso
 - Al cargar la página, el navegador solicitará permiso para acceder a tu ubicación.
@@ -45,7 +40,7 @@
 Abre issues o PRs para mejoras, correcciones o nuevas funcionalidades.
 
 ## 📝 Licencia
-MIT (o especifica la que prefieras)
+cc BY
 
 ## ✉️ Autor
 Juan Luis Márquez Canedo
