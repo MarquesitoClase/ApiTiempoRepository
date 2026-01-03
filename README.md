@@ -5,7 +5,7 @@
 ## 🧩 Características
 - Pronóstico a 5 días para la ubicación actual.
 - Uso de geolocalización del navegador.
-- No requiere clave de API (Open-Meteo).
+- Uso de una API libre del tiempo (Open-Meteo).
 - Interfaz sencilla con tarjetas por día.
 
 ## ⚙️ Tecnologías
