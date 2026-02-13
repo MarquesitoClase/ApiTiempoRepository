@@ -2,6 +2,9 @@
 
 **Proyecto simple que muestra el pronóstico meteorológico de 5 días usando la API pública de Open-Meteo y la geolocalización del navegador.**
 
+## Verla en funcionamiento
+https://marquesitoclase.github.io/ApiTiempoRepository/
+
 ## 🧩 Características
 - Pronóstico a 5 días para la ubicación actual.
 - Uso de geolocalización del navegador.
@@ -43,4 +46,7 @@ Abre issues o PRs para mejoras, correcciones o nuevas funcionalidades.
 cc BY
 
 ## ✉️ Autor
-Juan Luis Márquez Canedo
+Juan Luis Márquez Canedo.
+
+## ToDo
+Crear un buscador que te permita visualizar lugares que no sean tu ubicación
